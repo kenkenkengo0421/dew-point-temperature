@@ -3,7 +3,7 @@
 # [露点温度](https://ja.wikipedia.org/wiki/露点温度)
 
 
-
+### マグヌス（Magnus）式、
 
 >飽和水蒸気圧：es = 6.112 * exp(17.67*T/(T+243.5))
 
