@@ -25,5 +25,5 @@ btn.onclick = function () {
     res_9 = 243.5 * res_8;
     res_10 = 17.67 - res_8;
     res_dew = res_9 / res_10;
-    document.getElementById('display').innerText = res_dew.toString();
+    document.getElementById('display').innerText = res_dew.toFixed(1);
 };

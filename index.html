@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
+  <head>
     <meta charset="UTF-8">
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link href="style.css" rel="stylesheet">    
+  </head>
 <body>
-    <p>気温: <input type="number" id="input_t" value="25.5"></p>
-    <p>湿度: <input type="number" id="input_h" value="50"></p>
-    <p>結果: <span id="display"></span></p>
-
-    <button id="btn">計算実行</button>
-
+  <div class="calc_container">
+    <p>露点温度(Dew point)</p>
+    <p>      気温(t): <br><input type="number" id="input_t" value="25.5">℃ </p>
+    <p> 相対湿度(RH): <br><input type="number" id="input_h" value="50">%</p>
+    <p>露点温度(dew): <span id="display"></span>℃ </p>
+    <button id="btn">実行(play)</button>
+  </div>
     <script src="dew.js"></script>
 </body>
 </html>
