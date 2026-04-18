@@ -6,14 +6,18 @@
     <title></title>
     <link href="style.css" rel="stylesheet">    
   </head>
+
 <body>
-  <div class="calc_container">
-    <p class="text_size">露点温度(Dew point)</p>
-    <p class="text_size">      気温(t): <br><input class="input_size" type="number" id="input_t" value="25.5">℃ </p>
-    <p class="text_size"> 相対湿度(RH): <br><input class="input_size" type="number" id="input_h" value="50">%</p>
-    <p class="text_size">露点温度(dew): <span id="display"></span>℃ </p>
-    <button class="text_size" id="btn">実行(play)</button>
+  <div class="container">
+    <div class="mainbase">
+      <p class="text_size">露点温度(Dew point)</p>
+      <p class="text_size">      気温(t): <br><input class="input_size" type="number" id="input_t" value="25.5">℃ </p>
+      <p class="text_size"> 相対湿度(RH): <br><input class="input_size" type="number" id="input_h" value="50">%</p>
+      <p class="text_size">露点温度(dew): <span id="display"></span>℃ </p>
+      <button class="text_size" id="btn">実行(play)</button>
+    </div>
   </div>
+
     <script src="dew.js"></script>
     <br>
     <br>
@@ -21,4 +25,5 @@
       <a id="link_text" href="https://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:PsychrometricChart-SeaLevel-SI-jpn.jpg">湿り空気線図(PsychrometricChart)wiki公式ページ</a>
     </h3>
 </body>
+
 </html>
