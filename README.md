@@ -1,4 +1,3 @@
-![](https://visitor-badge.laobi.icu/badge?page_id=kenkenkengo0421/dew-point-temperature/edit/main/README.md)
 
 # [露点温度](https://ja.wikipedia.org/wiki/露点温度)
 
